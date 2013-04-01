@@ -104,7 +104,10 @@ h1 {
 }
 
 .menu {
-
+    background-color: #6bbda7;
+    float: left;
+    position: relative;
+    width: 100%;
 }
 
 .headerText {
@@ -126,6 +129,31 @@ h1 {
 
 .sponsors {
 
+}
+
+/* Site Menu */
+
+.menu ul {
+    list-style-type: none;
+    float: left;
+    position: relative;
+    left: 50%;
+    text-align: center;
+}
+
+.menu li {
+    float: left;
+    position: relative;
+    right: 50%;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: block;
 }
 
 /* Band Image Grid */
