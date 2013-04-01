@@ -93,21 +93,45 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* Content Blocks */
 
+.header {
 
+}
 
+.menu {
 
+}
 
+.headerText {
 
+}
 
+.bands {
 
+}
 
+.stages {
 
+}
 
+.program {
 
+}
 
+.sponsors {
 
+}
 
+/* Band Image Grid */
+
+.bandRow {
+
+}
+
+.bandInfo {
+    
+}
 
 /* ==========================================================================
    Helper classes
