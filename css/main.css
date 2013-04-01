@@ -95,6 +95,10 @@ textarea {
 
 /* Content Blocks */
 
+h1 {
+    text-align: center;
+}
+
 .header {
 
 }
