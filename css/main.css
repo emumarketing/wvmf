@@ -104,7 +104,8 @@ textarea {
 }
 
 .headerText {
-
+    font-size: 2em;
+    text-align: center;
 }
 
 .bands {
@@ -112,7 +113,7 @@ textarea {
 }
 
 .stages {
-
+    clear: both;
 }
 
 .program {
@@ -126,11 +127,16 @@ textarea {
 /* Band Image Grid */
 
 .bandRow {
-
+    clear: both;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .bandInfo {
-    
+    float: left;
+    width: 200px;
+    height: 200px;
 }
 
 /* ==========================================================================
