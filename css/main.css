@@ -120,6 +120,7 @@ header {
 
 .stages {
     clear: both;
+    background-color: #f7f7f7;
 }
 
 .program {
@@ -127,7 +128,7 @@ header {
 }
 
 .sponsors {
-
+    background-color: #f7f7f7;
 }
 
 /* Site Menu */
@@ -185,6 +186,7 @@ header {
     left: 0;
     margin-bottom: 0;
     width: 100%;
+    background-color: white;    /*fallback color */
     background-color: rgba(255,255,255,.7);
     z-index: 1;
 }
