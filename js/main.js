@@ -13,3 +13,15 @@ $(window).scroll(function(e){
 		});
 	}
 });
+
+$(document).ready(function() {
+	// Show labels on mouseover
+	$('.bandInfo').mouseover(function() {
+		$(this).find('p').animate({'opacity':'1'});
+	});
+
+	// Hide labels on mouseout
+	$('.bandInfo').mouseout(function() {
+		$(this).find('p').animate({'opacity':'0'});
+	});
+});
