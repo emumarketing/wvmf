@@ -17,11 +17,11 @@ $(window).scroll(function(e){
 $(document).ready(function() {
 	// Show labels on mouseover
 	$('.bandInfo').mouseover(function() {
-		$(this).find('p').animate({'opacity':'1'});
+		$(this).find('p').stop().animate({'opacity':'1'});
 	});
 
 	// Hide labels on mouseout
 	$('.bandInfo').mouseout(function() {
-		$(this).find('p').animate({'opacity':'0'});
+		$(this).find('p').stop().animate({'opacity':'0'});
 	});
 });
