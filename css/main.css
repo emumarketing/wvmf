@@ -132,12 +132,47 @@ header {
     background-color: #f7f7f7;
 }
 
+/* program schedule */
 .program {
+    width: 925px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
 
+.programRow {
+    margin-bottom: 2em;
+    width: 100%;
+    border-bottom: solid 3px black;
+}
+
+.programCols {
+    position: absolute;
+    top: 10px; 
+}
+
+.programCol {
+    width: 250px;
+    float: left;
+    margin-left: 50px;
+}
+
+#buzzStage div {
+    background-color: #6bbca7;
+}
+
+#emuStage div {
+    background-color: #fabfc1;
+}
+
+#streetStage div {
+    background-color: #235482;
+    color: white;
 }
 
 .sponsors {
     background-color: #f7f7f7;
+    clear: both;
 }
 
 /* Site Menu */
@@ -177,7 +212,7 @@ header {
 
 .bandRow {
     clear: both;
-    width: 600px;
+    width: 630px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -187,16 +222,19 @@ header {
     float: left;
     width: 200px;
     height: 200px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .bandInfo p {
     position: absolute;
     bottom: 0;
     left: 0;
-    margin-bottom: 0;
+    margin: 0;
     width: 100%;
+    height: 100%;
     background-color: white;    /*fallback color */
-    background-color: rgba(255,255,255,.7);
+    background-color: rgba(255,255,255,.8);
     z-index: 1;
     opacity: 0;
 }

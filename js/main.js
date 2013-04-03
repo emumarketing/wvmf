@@ -1,6 +1,6 @@
 $(window).scroll(function(e){
+	// make menu "stick" to top of the window
 	$menu = $('div.menu');
-	// if($(this).scrollTop() > 350 && $menu.css('position') != 'fixed') {
 	if($(this).scrollTop() > 350) {
 		$menu.css({
 			'position':'fixed',
