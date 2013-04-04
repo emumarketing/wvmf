@@ -141,33 +141,34 @@ header {
 }
 
 .programRow {
-    margin-bottom: 2em;
+    position: relative;
     width: 100%;
-    border-bottom: solid 3px black;
+    border-bottom: solid 2px gray;
+    z-index: -1;
+    margin-top: 1em;
 }
 
-.programCols {
-    position: absolute;
-    top: 10px; 
-}
-
-.programCol {
+/* schedule items */
+.programRow div {
     width: 250px;
-    float: left;
-    margin-left: 50px;
+    position: absolute;
+    z-index: 1;
 }
 
-#buzzStage div {
+.buzzStage {
     background-color: #6bbca7;
+    left: 50px;
 }
 
-#emuStage div {
+.emuStage {
     background-color: #fabfc1;
+    left: 350px;
 }
 
-#streetStage div {
+.streetStage {
     background-color: #235482;
     color: white;
+    left: 650px;
 }
 
 .sponsors {
@@ -222,8 +223,8 @@ header {
     float: left;
     width: 200px;
     height: 200px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin-right: 2px;
+    margin-bottom: 2px;
 }
 
 .bandInfo p {
