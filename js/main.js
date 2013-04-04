@@ -15,13 +15,38 @@ $(window).scroll(function(e){
 });
 
 $(document).ready(function() {
-	// Show labels on mouseover
+	// Show band image labels on mouseover
 	$('.bandInfo').mouseover(function() {
 		$(this).find('p').stop().animate({'opacity':'1'});
 	});
 
-	// Hide labels on mouseout
+	// Hide band image labels on mouseout
 	$('.bandInfo').mouseout(function() {
 		$(this).find('p').stop().animate({'opacity':'0'});
+	});
+
+	// Map overlays
+	$('#buzzLink').mouseover(function() {
+		$('#buzzDot').css('opacity', 1);
+	});
+
+	$('#buzzLink').mouseout(function() {
+		$('#buzzDot').css('opacity', 0);
+	});
+
+	$('#emuLink').mouseover(function() {
+		$('#emuDot').css('opacity', 1);
+	});
+
+	$('#emuLink').mouseout(function() {
+		$('#emuDot').css('opacity', 0);
+	});
+
+	$('#streetLink').mouseover(function() {
+		$('#streetDot').css('opacity', 1);
+	});
+
+	$('#streetLink').mouseout(function() {
+		$('#streetDot').css('opacity', 0);
 	});
 });

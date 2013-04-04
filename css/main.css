@@ -176,8 +176,33 @@ header {
     background-color: #f7f7f7;
 }
 
+.stages div {
+    width: 650px;
+    height: 550px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: right;
+}
+
+.stages ul {
+    float: left;
+    list-style: none;
+}
+
+.stages img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.overlay {
+    opacity: 0;
+}
+
 /* program schedule */
 .program {
+    clear: both;
     width: 850px;
     margin-left: auto;
     margin-right: auto;
