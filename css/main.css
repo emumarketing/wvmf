@@ -134,14 +134,15 @@ header {
 
 /* program schedule */
 .program {
-    width: 925px;
+    width: 850px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
+    line-height: 1em;
 }
 
 .programRow {
-    position: relative;
+    /*position: relative;*/
     width: 100%;
     border-bottom: solid 2px gray;
     z-index: -1;
@@ -162,13 +163,13 @@ header {
 
 .emuStage {
     background-color: #fabfc1;
-    left: 350px;
+    left: 325px;
 }
 
 .streetStage {
     background-color: #235482;
     color: white;
-    left: 650px;
+    left: 600px;
 }
 
 .sponsors {
