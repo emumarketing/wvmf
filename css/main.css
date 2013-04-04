@@ -173,7 +173,7 @@ header {
 
 .stages {
     clear: both;
-    background-color: #f7f7f7;
+    background-color: #dcdcdc;
 }
 
 .stages div {
@@ -241,11 +241,6 @@ header {
     left: 600px;
 }
 
-.sponsors {
-    background-color: #f7f7f7;
-    clear: both;
-}
-
 /* Site Menu */
 
 .menu {
@@ -277,6 +272,20 @@ header {
     margin-left: 20px;
     margin-right: 20px;
     display: block;
+}
+
+/* Sponsors */
+.sponsors {
+    background-color: #dcdcdc;
+    clear: both;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.sponsors img {
+
 }
 
 /* ==========================================================================
