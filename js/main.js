@@ -14,6 +14,11 @@ $(window).scroll(function(e){
 	}
 });
 
+function mapReset() {
+	$('.stages li').css('color', 'black');
+	$('.overlay').css('opacity', '0');
+}
+
 $(document).ready(function() {
 	// Show band image labels on mouseover
 	$('.bandInfo').mouseover(function() {
@@ -26,33 +31,23 @@ $(document).ready(function() {
 	});
 
 	// Map overlays
+	$('#emuDot').css('opacity', 1);
+
 	$('#buzzLink').mouseover(function() {
+		mapReset();
 		$('#buzzDot').css('opacity', 1);
 		$('#buzzLink').css('color','#6bbca7');
 	});
 
-	$('#buzzLink').mouseout(function() {
-		$('#buzzDot').css('opacity', 0);
-		$('#buzzLink').css('color', 'black');
-	});
-
 	$('#emuLink').mouseover(function() {
+		mapReset();
 		$('#emuDot').css('opacity', 1);
 		$('#emuLink').css('color','#6bbca7');
 	});
 
-	$('#emuLink').mouseout(function() {
-		$('#emuDot').css('opacity', 0);
-		$('#emuLink').css('color','black');
-	});
-
 	$('#streetLink').mouseover(function() {
+		mapReset();
 		$('#streetDot').css('opacity', 1);
 		$('#streetLink').css('color','#6bbca7');
-	});
-
-	$('#streetLink').mouseout(function() {
-		$('#streetDot').css('opacity', 0);
-		$('#streetLink').css('color','black');
 	});
 });
