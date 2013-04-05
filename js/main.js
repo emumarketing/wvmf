@@ -14,6 +14,7 @@ $(window).scroll(function(e){
 	}
 });
 
+// Helper function for map overlays
 function mapReset() {
 	$('.stages li').css('color', 'black');
 	$('.overlay').css('opacity', '0');
@@ -22,12 +23,12 @@ function mapReset() {
 $(document).ready(function() {
 	// Show band image labels on mouseover
 	$('.bandInfo').mouseover(function() {
-		$(this).find('p').stop().animate({'opacity':'1'});
+		$(this).find('div').stop().animate({'opacity':'1'});
 	});
 
 	// Hide band image labels on mouseout
 	$('.bandInfo').mouseout(function() {
-		$(this).find('p').stop().animate({'opacity':'0'});
+		$(this).find('div').stop().animate({'opacity':'0'});
 	});
 
 	// Map overlays
