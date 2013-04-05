@@ -154,6 +154,7 @@ header {
     background-color: #6bbda7;
     color: white;
     font-size: 2em;
+    line-height: 1em;
     text-align: center;
 }
 
@@ -210,7 +211,7 @@ header {
 
 .stages {
     clear: both;
-    background-color: #dcdcdc;
+    background-color: white;
 }
 
 .stages div {
@@ -243,25 +244,43 @@ header {
 
 /* program schedule */
 .program {
+    background: url('../img/schedule_background.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 40px;
+    margin-bottom: 0;
+}
+
+.programWrapper {
     clear: both;
-    width: 850px;
+    width: 650px;
     margin-left: auto;
     margin-right: auto;
     position: relative;
     line-height: 1em;
+    /*background-color: rgba(255,255,255,.3);*/
 }
 
 .programRow {
     /*position: relative;*/
     width: 100%;
-    border-bottom: solid 2px gray;
+    border-bottom: solid 1px LightGray;
     z-index: -1;
     margin-top: 1em;
+    color: white;
 }
 
 /* schedule items */
+.program p {
+    margin-top: 0px;
+}
+
+.program span {
+    font-size: .8em;
+}
+
 .programRow div {
-    width: 250px;
+    width: 170px;
     position: absolute;
     z-index: 1;
 }
@@ -273,15 +292,18 @@ header {
 
 .emuStage {
     background-color: #fabfc1;
-    left: 325px;
+    left: 250px;
 }
 
 .streetStage {
     background-color: #235482;
     color: white;
-    left: 600px;
+    left: 450px;
 }
 
+.fifteen {
+    margin-top: 2.1%;   /* adjust schedule items that start at :15 or :45 */
+}
 
 
 /* Sponsors */
@@ -291,11 +313,14 @@ header {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-top: 20px;
 }
 
 .sponsors img {
-
+    position: relative;
+    margin-left: 20px;
+    margin right: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 /* ==========================================================================
