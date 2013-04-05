@@ -97,6 +97,7 @@ textarea {
 
 h1 {
     text-align: center;
+    font-weight: 300;
 }
 
 /* page header */
@@ -113,8 +114,8 @@ header {
     position: absolute;
     top:50%;
     left: 50%;
-    margin-top: -150px;
-    margin-left: -150px;
+    margin-top: -75px;
+    margin-left: -370px;
 }
 
 /* Site Menu */
@@ -156,6 +157,13 @@ header {
     font-size: 2em;
     line-height: 1em;
     text-align: center;
+    height: 6em;
+}
+
+.headerText p {
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 /* Band Image Grid */
@@ -207,48 +215,19 @@ header {
     color: #235482;
 }
 
-/* stage map */
-
-.stages {
-    clear: both;
-    background-color: white;
-}
-
-.stages div {
-    width: 650px;
-    height: 550px;
-    position: relative;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: right;
-}
-
-.stages ul {
-    float: left;
-    list-style: none;
-}
-
-.stages img {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-.overlay {
-    opacity: 0;
-}
-
-#emuLink {
-    color: #6bbca7;
-}
-
 /* program schedule */
 .program {
     background: url('../img/schedule_background.jpg');
     background-position: center;
     background-size: cover;
-    padding-bottom: 40px;
-    margin-bottom: 0;
+    padding-bottom: 100px;
+    padding-top: 20px;
+    margin-top: 50px;
+    clear: both;
+}
+
+.program h1 {
+    color: white;
 }
 
 .programWrapper {
@@ -305,14 +284,50 @@ header {
     margin-top: 2.1%;   /* adjust schedule items that start at :15 or :45 */
 }
 
+/* stage map */
+
+.stages {
+    clear: both;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.stages div {
+    width: 650px;
+    height: 550px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: right;
+}
+
+.stages ul {
+    float: left;
+    list-style: none;
+}
+
+.stages img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.overlay {
+    opacity: 0;
+}
+
+#emuLink {
+    color: #6bbca7;
+}
 
 /* Sponsors */
 .sponsors {
     background-color: #dcdcdc;
     clear: both;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 10px;
 }
 
 .sponsors img {
@@ -321,6 +336,16 @@ header {
     margin right: 20px;
     margin-top: auto;
     margin-bottom: auto;
+}
+
+.sponsors p {
+    text-align: center;
+    font-size: .7em;
+}
+
+.sponsors a {
+    text-decoration: none;
+    color: #235482;
 }
 
 /* ==========================================================================
