@@ -134,6 +134,7 @@ header {
     position: relative;
     left: 50%;
     text-align: center;
+    margin-left: -20px;
 }
 
 .menu li {
@@ -170,7 +171,47 @@ header {
     font-weight: 300;
 }
 
+/* Secondary Menu */
+
+.menuSocial {
+    background-color: #363437;
+    float: left;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    clear:both;
+}
+
+
+.menuSocial ul {
+    list-style-type: none;
+    float: left;
+    position: relative;
+    left: 50%;
+    text-align: center;
+    margin-left: -20px;     /* Trying to compensate for list bullet pushing off-center */
+}
+
+.menuSocial li {
+    float: left;
+    position: relative;
+    right: 50%;
+}
+
+.menuSocial a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: block;
+}
+
 /* Band Image Grid */
+
+.bands {
+    clear: both;
+    padding-top: 10px;
+}
 
 .bandRow {
     clear: both;
