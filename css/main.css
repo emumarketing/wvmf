@@ -164,6 +164,7 @@ header {
     position: relative;
     margin-top: auto;
     margin-bottom: auto;
+    font-weight: 300;
 }
 
 /* Band Image Grid */
